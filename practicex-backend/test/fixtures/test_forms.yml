@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  admin_date: 2019-04-26
+  admin_location: MyString
+  test: one
+
+two:
+  code: MyString
+  admin_date: 2019-04-26
+  admin_location: MyString
+  test: two

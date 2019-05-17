@@ -1,0 +1,160 @@
+@import './fontawesome/fontawesome.scss';
+@import './fontawesome/solid.scss';
+@import './fontawesome/brands.scss';
+@import url('https://fonts.googleapis.com/css?family=Istok+Web|Orbitron:900');
+@import './variables.scss';
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ui.form .field > label {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  line-height: 1.4285em;
+}
+
+.ui.form .fields {
+  display: block;
+  margin: 0;
+  .field {
+    padding: 1rem 0;
+  }
+}
+
+.logo {
+  font-family: $logo-font;
+  font-weight: 900;
+}
+
+.ui.list>.item>img.image {
+  float: left;
+}
+
+.ui.list>.item>img.image+.content {
+  display: grid;
+}
+
+main > div.ui.segment.masthead {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('../img/thought-catalog-641073-unsplash.jpg') !important;
+  background-size: cover !important;
+  min-height: 650px;
+  padding-top: 5rem;
+  display: block;
+  text-align: center;
+}
+
+.login-background {
+  background-color: $primary-color;
+}
+
+.timer {
+  margin-top: 10rem;
+  font-size: 10rem;
+}
+
+a.logo {
+  i {
+    font-size: 1.5rem;
+    padding-top: 2px;
+  }
+
+  span {
+    padding-top: 5px; 
+  }
+}
+
+.checkmark {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke .6s cubic-bezier(0.650, 0.000, 0.450, 1.000) forwards;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke .3s cubic-bezier(0.650, 0.000, 0.450, 1.000) .8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+
+/*main > div.section {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
+  background-color: $primary-color;
+  padding: 1rem;
+  margin: 2rem 25rem;
+  text-align: left;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 1rem;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: hsla(217, 100%, 56%, 1.0);
+}*/

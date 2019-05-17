@@ -1,0 +1,50 @@
+{
+  "name": "practicex-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nivo/bar": "^0.56.2",
+    "@nivo/heatmap": "^0.56.2",
+    "@nivo/line": "^0.56.2",
+    "base64-img": "^1.0.4",
+    "form-data": "^2.3.3",
+    "goby": "^1.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "nivo": "^0.31.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.86.0"
+  },
+  "scripts": {
+    "build-semantic": "cd src/assets/semantic && gulp build-css build-assets",
+    "watch-semantic": "cd src/assets/semantic && yarn run build-semantic && gulp watch",
+    "start": "yarn run build-semantic && react-scripts start",
+    "build": "yarn run build-semantic && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "semantic-ui": "^2.4.2"
+  }
+}

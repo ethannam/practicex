@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  attempt_type: 1
+  start_date: 2019-04-26 14:45:56
+  end_date: 2019-04-26 14:45:56
+  test_format: one
+  user: one
+
+two:
+  attempt_type: 1
+  start_date: 2019-04-26 14:45:56
+  end_date: 2019-04-26 14:45:56
+  test_format: two
+  user: two

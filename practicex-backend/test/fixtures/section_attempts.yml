@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2019-04-26 14:51:59
+  end_date: 2019-04-26 14:51:59
+  remaining_time: 1
+  over_time: 1
+  section: one
+  test_attempt: one
+
+two:
+  start_date: 2019-04-26 14:51:59
+  end_date: 2019-04-26 14:51:59
+  remaining_time: 1
+  over_time: 1
+  section: two
+  test_attempt: two

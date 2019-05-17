@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  total_time: 1
+  section: one
+  accommodation: one
+
+two:
+  total_time: 1
+  section: two
+  accommodation: two

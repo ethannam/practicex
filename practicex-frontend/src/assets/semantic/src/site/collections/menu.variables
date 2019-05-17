@@ -1,0 +1,9 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@itemFontWeight: 'bold';
+@activeItemFontWeight: 'bold';
+
+@invertedBackground: hsla(240, 100%, 33%, 1.0);
+@invertedDividerBackground: @invertedBackground;
